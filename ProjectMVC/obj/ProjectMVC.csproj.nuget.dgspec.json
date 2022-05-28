@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mbtbr\\OneDrive\\Belgeler\\VS.NET\\MVC\\ProjectMVC\\ProjectMVC.csproj": {}
+    "C:\\Users\\mbtbr\\OneDrive\\Masaüstü\\Projects\\VS.NET\\MVC\\ProjectMVC\\ProjectMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mbtbr\\OneDrive\\Belgeler\\VS.NET\\MVC\\ProjectMVC\\ProjectMVC.csproj": {
+    "C:\\Users\\mbtbr\\OneDrive\\Masaüstü\\Projects\\VS.NET\\MVC\\ProjectMVC\\ProjectMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mbtbr\\OneDrive\\Belgeler\\VS.NET\\MVC\\ProjectMVC\\ProjectMVC.csproj",
+        "projectUniqueName": "C:\\Users\\mbtbr\\OneDrive\\Masaüstü\\Projects\\VS.NET\\MVC\\ProjectMVC\\ProjectMVC.csproj",
         "projectName": "ProjectMVC",
-        "projectPath": "C:\\Users\\mbtbr\\OneDrive\\Belgeler\\VS.NET\\MVC\\ProjectMVC\\ProjectMVC.csproj",
+        "projectPath": "C:\\Users\\mbtbr\\OneDrive\\Masaüstü\\Projects\\VS.NET\\MVC\\ProjectMVC\\ProjectMVC.csproj",
         "packagesPath": "C:\\Users\\mbtbr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mbtbr\\OneDrive\\Belgeler\\VS.NET\\MVC\\ProjectMVC\\obj\\",
+        "outputPath": "C:\\Users\\mbtbr\\OneDrive\\Masaüstü\\Projects\\VS.NET\\MVC\\ProjectMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,20 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
