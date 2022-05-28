@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\mbtbr\OneDrive\Masaüstü\Projects\VS.NET\MVC\ProjectMVC
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/mbtbr/OneDrive/Masaüstü/Projects/VS.NET/MVC/ProjectMVC/Views/Customer/Customers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJcQ3VzdG9tZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/mbtbr/OneDrive/Masaüstü/Projects/VS.NET/MVC/ProjectMVC/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -23,8 +27,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/mbtbr/OneDrive/Masaüstü/Projects/VS.NET/MVC/ProjectMVC/Views/Main/Products.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxQcm9kdWN0cy5jc2h0bWw=
+[C:/Users/mbtbr/OneDrive/Masaüstü/Projects/VS.NET/MVC/ProjectMVC/Views/OrderDetail/OrderDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJEZXRhaWxcT3JkZXJEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mbtbr/OneDrive/Masaüstü/Projects/VS.NET/MVC/ProjectMVC/Views/Order/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcT3JkZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mbtbr/OneDrive/Masaüstü/Projects/VS.NET/MVC/ProjectMVC/Views/Product/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxQcm9kdWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/mbtbr/OneDrive/Masaüstü/Projects/VS.NET/MVC/ProjectMVC/Views/Shared/_ValidationScriptsPartial.cshtml]

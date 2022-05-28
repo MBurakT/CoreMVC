@@ -4,11 +4,11 @@ using ProjectMVC.Models.Concrete;
 
 namespace ProjectMVC.Controllers
 {
-    public class MainController : Controller
+    public class ProductController : Controller
     {
-        private readonly ILogger<MainController> _logger;
+        private readonly ILogger<ProductController> _logger;
 
-        public MainController(ILogger<MainController> logger)
+        public ProductController(ILogger<ProductController> logger)
         {
             _logger = logger;
         }
