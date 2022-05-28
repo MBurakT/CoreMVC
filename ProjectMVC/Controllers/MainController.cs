@@ -1,4 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using ProjectMVC.Data.Concrete.EntityFramework;
+using ProjectMVC.Models.Concrete;
 
 namespace ProjectMVC.Controllers
 {
@@ -11,9 +13,13 @@ namespace ProjectMVC.Controllers
             _logger = logger;
         }
 
-        public IActionResult Start()
+        public IActionResult Products()
         {
-            return View();
+            using(var context = new ContosoPizzaContext())
+            {
+                return View(context.Products.ToList());
+            }
+            //return View();
         }
     }
 }
