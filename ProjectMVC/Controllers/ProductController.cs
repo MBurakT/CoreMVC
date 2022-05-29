@@ -13,13 +13,13 @@ namespace ProjectMVC.Controllers
             _logger = logger;
         }
 
-        public IActionResult Products()
+        public IActionResult Products(int? id)
         {
-            using(var context = new ContosoPizzaContext())
+            using (var context = new ContosoPizzaContext())
             {
-                return View(context.Products.ToList());
+
+                return id == null ? View(context.Products.ToList()) : View(context.Products.ToList().Where(p => p.Id == id));
             }
-            //return View();
         }
     }
 }
